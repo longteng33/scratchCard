@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>刮刮卡</title>
+    <style>
+        .wrapper{
+
+        }
+        .wrapper .btn{
+            height: 40px;
+            width: 200px;
+            background: linear-gradient(to right,#32e696,#00BE6E);
+            font-size: 20px;
+            line-height: 40px;
+            text-align: center;
+            cursor: pointer;
+            border-radius: 10px;
+            user-select: none;
+            color: #fff;
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+        .wrapper .btn:hover{
+            box-shadow: 0 2px 8px 0 rgba(0,0,0,.15);
+        }
+        .wrapper .btn:active{
+            color: coral;
+        }
+        .wrapper .canvas-con{
+            width: 400px;
+            margin: 0 auto;
+        }
+        .wrapper .canvas{
+            width: 400px;
+            height: 400px;
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    </style>
+    <!-- <link rel="stylesheet" href= "CSS文件路径"> -->
+</head>
+    
+<body>
+    <div class="wrapper">
+        <div class="btn">再来一次</div>
+        <div class="canvas-con">
+            <canvas class="canvas" width="400" height="400"></canvas>
+        </div>
+    </div>
+    
+    
+    <script src="./jquery-3.4.1.min.js"></script>
+    <script src="./index.js"></script>
+    <script>
+        
+    </script>
+</body>
+</html>
